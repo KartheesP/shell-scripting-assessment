@@ -1,6 +1,10 @@
 #!/bin/bash
 
+# Author: [Karthees P]
+# Script to reverse a string with special conditions
+
 flag=$1
+
 input_string=$2
 
 if [ "$flag" != "-e" ] && [ "$flag" != "-w" ]; then
